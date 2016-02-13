@@ -1,0 +1,26 @@
+{
+  "name": "require-first",
+  "version": "1.0.0",
+  "description": "Require the first match in a set of directories",
+  "main": "index.js",
+  "scripts": {
+    "test": "happiness && mocha"
+  },
+  "keywords": [
+	"require",
+    "lookup",
+    "finder",
+    "fs",
+    "module"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:wesleytodd/require-first.git"
+  },
+  "author": "Wes Todd",
+  "license": "ISC",
+  "devDependencies": {
+    "happiness": "^5.5.0",
+    "mocha": "^2.4.5"
+  }
+}
