@@ -29,7 +29,7 @@ var f1 = requireFirst.require([
 ], 'file1');
 
 // f1 will be the exported value of the file 'path/to/root/dir1/file1.js' if it exists,
-// othwrwise it will be the the value exported by 'path/to/root/dir1/file1.js'
+// othwrwise it will be the the value exported by 'path/to/root/dir2/file1.js'
 ```
 
 You can also require all the modules found in a set of directories but only the first of each filename will be loaded.
