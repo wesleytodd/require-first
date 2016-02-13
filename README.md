@@ -1,5 +1,15 @@
 # Require the first module that matches in a set of directories
 
+[![NPM Version][npm-image]][npm-url]
+[![NPM Downloads][downloads-image]][downloads-url]
+[![Build Status](https://travis-ci.org/wesleytodd/nighthawk.svg?branch=master)](https://travis-ci.org/wesleytodd/nighthawk)
+[![js-happiness-style](https://img.shields.io/badge/code%20style-happiness-brightgreen.svg)](https://github.com/JedWatson/happiness)
+
+[npm-image]: https://img.shields.io/npm/v/require-first.svg
+[npm-url]: https://npmjs.org/package/require-first
+[downloads-image]: https://img.shields.io/npm/dm/require-first.svg
+[downloads-url]: https://npmjs.org/package/require-first
+
 A utility library to help finding and requiring modules.  Given a set of paths to look in, the module will find the first requireable match and require it.
 
 ## Usage
