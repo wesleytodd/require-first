@@ -19,7 +19,7 @@ $ npm install --save require-first
 ```
 
 ```javascript
-var requireFirst = new require('require-first');
+var requireFirst = require('require-first');
 
 var dir = 'path/to/root'
 
@@ -35,7 +35,7 @@ var f1 = requireFirst.require([
 You can also require all the modules found in a set of directories but only the first of each filename will be loaded.
 
 ```javascript
-var requireFirst = new require('require-first');
+var requireFirst = require('require-first');
 
 var dir = 'path/to/root'
 
